@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+ <title>Quy trình vẽ tế bào nguyên bản thành sáu bước</title>
+ <desc>Minh họa thực hành mới: silhouette, màng, nhân, chi tiết, mặt và pivot. Không trích artwork từ video.</desc>
+ <defs>
+  <path id="blob" d="M-100,-25 C-117,-70 -65,-103 -26,-85 C10,-115 69,-90 73,-57 C116,-46 116,7 86,27 C105,73 51,99 14,80 C-22,112 -78,83 -77,48 C-117,41 -128,6 -100,-25Z"/>
+  <g id="shell"><use href="#blob" fill="#342653"/><use href="#blob" transform="scale(.89)" fill="#EFA247"/><use href="#blob" transform="translate(-2 -4) scale(.77)" fill="#F8CB68"/></g>
+  <g id="nucleus"><ellipse cx="27" cy="27" rx="32" ry="29" fill="#66528D"/><ellipse cx="21" cy="20" rx="20" ry="16" fill="#9C7AB4"/><circle cx="14" cy="15" r="7" fill="#C5A1CE"/></g>
+  <g id="details" fill="#D88547"><ellipse cx="-53" cy="22" rx="15" ry="7" transform="rotate(-25 -53 22)"/><ellipse cx="52" cy="-43" rx="13" ry="6" transform="rotate(30 52 -43)"/><circle cx="-24" cy="57" r="6"/><circle cx="-44" cy="47" r="4"/><circle cx="64" cy="4" r="5"/></g>
+  <g id="face"><ellipse cx="-36" cy="-27" rx="12" ry="15" fill="#FFF9DB"/><ellipse cx="-4" cy="-27" rx="12" ry="15" fill="#FFF9DB"/><circle cx="-32" cy="-25" r="6" fill="#342653"/><circle cx="0" cy="-25" r="6" fill="#342653"/><path d="M-31,-3 Q-19,10 -6,-3" fill="none" stroke="#342653" stroke-width="5" stroke-linecap="round"/></g>
+  <g id="pivot" fill="none" stroke="#208D9B" stroke-width="2"><circle r="9"/><path d="M-14,0 H14 M0,-14 V14"/></g>
+ </defs>
+ <rect width="1200" height="720" fill="#F7F1E4"/>
+ <g font-family="Arial,sans-serif" fill="#342653">
+  <text x="40" y="44" font-size="27" font-weight="bold">TỪ SILHOUETTE ĐẾN ARTWORK CÓ THỂ ANIMATE</text>
+  <text x="40" y="72" font-size="16">Bài vẽ nguyên bản • Màu và tỷ lệ đề xuất • Tách lớp trước khi tạo chuyển động</text>
+  <g transform="translate(200 215)"><use href="#blob" fill="#342653"/></g>
+  <g transform="translate(600 215)"><use href="#shell"/></g>
+  <g transform="translate(1000 215)"><use href="#shell"/><use href="#nucleus"/></g>
+  <g transform="translate(200 505)"><use href="#shell"/><use href="#details"/><use href="#nucleus"/></g>
+  <g transform="translate(600 505)"><use href="#shell"/><use href="#details"/><use href="#nucleus"/><use href="#face"/><path d="M-77,-38 Q-69,-65 -43,-63" stroke="#FFF0AE" stroke-width="8" fill="none" stroke-linecap="round"/></g>
+  <g transform="translate(1000 505)"><use href="#shell" opacity=".6"/><use href="#details" opacity=".6"/><use href="#nucleus"/><use href="#face"/><path d="M0,0 L27,27 M0,0 L-20,-25 M0,0 L73,-57" fill="none" stroke="#208D9B" stroke-dasharray="5 4" stroke-width="2"/><use href="#pivot"/><use href="#pivot" x="27" y="27"/><use href="#pivot" x="-20" y="-25"/><use href="#pivot" x="73" y="-57"/></g>
+  <g font-size="20" font-weight="bold"><text x="55" y="336">01 / Khối lớn bất đối xứng</text><text x="455" y="336">02 / Màng và bào tương</text><text x="855" y="336">03 / Nhân lệch tâm</text><text x="55" y="626">04 / Chi tiết theo cụm</text><text x="455" y="626">05 / Mặt và mảng sáng</text><text x="855" y="626">06 / Điểm neo và lớp riêng</text></g>
+  <g font-size="15"><text x="55" y="360">Đọc được khi chỉ có một màu.</text><text x="455" y="360">Độ dày được chỉnh theo đường biên.</text><text x="855" y="360">Một khối chính, ít điểm nhấn.</text><text x="55" y="650">Chừa khoảng trống cho biểu cảm.</text><text x="455" y="650">Mí, mắt, miệng là các phần riêng.</text><text x="855" y="650">Màng mềm; mặt và lõi ít biến dạng.</text></g>
+  <text x="40" y="698" font-size="14">SVG này minh họa thứ tự dựng hình; không phải mô hình giải phẫu và không phải rig hoàn chỉnh.</text>
+ </g>
+</svg>

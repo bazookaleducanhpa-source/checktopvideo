@@ -1,0 +1,36 @@
+{
+  "decoded_frames": 1080,
+  "fps": 30.0,
+  "size": [
+    1280,
+    720
+  ],
+  "duration": 36,
+  "scenes": 9,
+  "audio": false,
+  "visual_review": "Nine representative frames plus selected boundary frames; not continuous playback",
+  "clip_frames": [
+    360,
+    360,
+    360
+  ],
+  "transition_frames_checked": [
+    117,
+    123,
+    237,
+    243,
+    357,
+    363,
+    477,
+    483,
+    597,
+    603,
+    717,
+    723,
+    837,
+    843,
+    957,
+    963
+  ],
+  "purpose": "Original visual/motion study; not a verified biological pathway"
+}

@@ -1,0 +1,12 @@
+{
+  "decoded_frames": 900,
+  "fps": 30.0,
+  "size": [
+    1280,
+    720
+  ],
+  "identical_adjacent_frames": 0,
+  "bytes": 1663338,
+  "audio": false,
+  "visual_inspection": "Selected source frames; not continuous playback."
+}
