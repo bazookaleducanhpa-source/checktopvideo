@@ -1,5 +1,7 @@
 # Bằng chứng nghiên cứu 4 video
 
+Bổ sung ngày 2026-11-13: [phân tích xuyên suốt theo timeline](timeline-study-2026-11-13.md) đối chiếu toàn bộ phụ đề với 54 contact sheet đã mở, gồm bộ tổng quan cũ, quét thay đổi hình ảnh mới và bốn đoạn chuyển động lấy mẫu. Báo cáo có bản đồ nội dung từ đầu đến cuối của cả bốn video, tách quảng cáo và bài học dựng cảnh. Đây vẫn là kiểm tra bằng ảnh lấy mẫu, chưa phải playback liên tục; cả bốn MP4 local không có audio stream.
+
 Bổ sung ngày 2026-11-11: xem [nghiên cứu 132 frame liên tiếp](frame-study.md) để có phạm vi kiểm tra mới, ảnh đối chiếu và cách dựng rút ra từ từng đoạn. Nội dung bên dưới giữ lại ghi chép của lượt nghiên cứu trước; không đồng nghĩa đã xem lại mọi ảnh trong lượt bổ sung.
 
 ## Phạm vi đã kiểm tra
